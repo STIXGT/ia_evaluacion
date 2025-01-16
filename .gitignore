@@ -1,0 +1,54 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Archivos de configuración específicos del sistema
+*.env
+*.local
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+logs/
+
+# Directorios de salida o archivos generados
+output/
+*.npy
+*.mp4
+*.pdf
+*.pt
+# Archivos creados por el IDE
+.vscode/
+.idea/
+*.iml
+
+# Dependencias instaladas
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Archivos de compilación
+build/
+dist/
+
+# Archivos de Docker o de contenedores
+docker-compose.override.yml
+*.dockerignore
+
+# Archivos de depuración
+*.bak
+*.swp
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Otros archivos innecesarios
+*.ipynb_checkpoints/
